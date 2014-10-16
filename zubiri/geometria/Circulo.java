@@ -9,6 +9,9 @@ public class Circulo {
 	private float circu = 0;
 	private float area = 0;
 
+	public Circulo (){
+	}
+
 	public Circulo (float valorRadio){
 	
 	this.radio = valorRadio;

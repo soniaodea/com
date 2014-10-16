@@ -6,6 +6,9 @@ public class Rectangulo {
 	private double base = 0;
 
 
+	public Rectangulo () {
+	}
+
 	public Rectangulo (double valorBase, double valorAltura){
 	
 	this.base = valorBase;
