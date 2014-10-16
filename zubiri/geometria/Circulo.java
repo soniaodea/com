@@ -5,41 +5,41 @@
 package com.zubiri.geometria;
 public class Circulo {
 
-	private float radio = 0;
-	private float circu = 0;
-	private float area = 0;
+	private double radio = 0;
+	private double circu = 0;
+	private double area = 0;
 
 	public Circulo (){
 	}
 
-	public Circulo (float valorRadio){
+	public Circulo (double valorRadio){
 	
 	this.radio = valorRadio;
 	}
 
-      public void setRadio(float num)
+      public void setRadio(double num)
         {
               	radio = num;
 	}
 
-	public float area()
+	public double area()
 	{  
 		area = 3.14f * radio * radio;
 		return area;
      	 }
 
-	public float circu()
+	public double circu()
 	{  
 		circu = 2 * 3.14f * radio;
 		return circu;
 		
      	 }
 
- 	public float getArea() 
+ 	public double getArea() 
 	{
         return area;
    	 }
- 	public float getCircu() 
+ 	public double getCircu() 
 	{
         return circu;
     	}
